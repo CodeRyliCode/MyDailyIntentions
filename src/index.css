@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
 .container {
   max-width: 960;
   margin-right: auto;
