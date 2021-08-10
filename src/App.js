@@ -19,6 +19,11 @@ const App = () => {
 			text: " This is my third note",
 			date: "15/04/2021",
 		},
+		{
+			id: nanoid(),
+			text: " This is my new note",
+			date: "15/06/2021",
+		},
 	]);
 
 	return (
