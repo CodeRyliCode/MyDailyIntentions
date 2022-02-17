@@ -21,19 +21,24 @@ code {
 }
 
 .dark-mode {
-  background-color: black;
+  background-image:url(./images/dark.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    background-attachment: fixed
 }
 
 .dark-mode h1{
   color: white;
 }
-.container {
+
+ .container {
   max-width: 960;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
   min-height: 100vh;
+
 }
 
 
@@ -73,7 +78,7 @@ textarea:focus{
 }
 
 .note{
-  background-color: #fef68a;
+  background-color: #ff7da4;
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
@@ -106,8 +111,7 @@ textarea:focus{
 }
 
 .search-input {
-  border: none;
-  background-color: rgb(233, 233, 233);
+background-color: rgb(233, 233, 233);
 }
 
 .search-input:focus{
